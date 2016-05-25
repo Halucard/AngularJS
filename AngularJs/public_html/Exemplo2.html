@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<meta charset="utf-8"/>
+<body>
+
+<div data-ng-app="" data-ng-init="numberm1=1;numberm2=1;numberd1=1;numberd2=1;numbera1=1;numbera2=1;numbers1=1;numbers2=1">
+
+<h2>MULTIPLICAÇÃO</h2>
+
+<input type="number" ng-model="numberm1">
+X
+<input type="number" ng-model="numberm2">
+
+<p><b>Multiplicação: </b> {{numberm1 * numberm2}}</p>
+
+<br />
+<br />
+
+<h2>DIVISÃO</h2>
+
+<input type="number" ng-model="numberd1">
+÷
+<input type="number" ng-model="numberd2">
+
+<p><b>Divisão: </b> {{numberd1 / numberd2}}</p>
+
+<br />
+<br />
+
+<h2>ADIÇÃO</h2>
+
+<input type="number" ng-model="numbera1">
++
+<input type="number" ng-model="numbera2">
+
+<p><b>Adição: </b> {{numbera1 + numbera2}}</p>
+
+<br />
+<br />
+
+<h2>SUBTRAÇÃO</h2>
+
+<input type="number" ng-model="numbers1">
+-
+<input type="number" ng-model="numbers2">
+
+<p><b>Subtração: </b> {{numbers1 - numbers2}}</p>
+
+<br />
+<br />
+</div>
+
+</body>
+</html>
